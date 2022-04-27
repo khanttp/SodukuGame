@@ -29,6 +29,7 @@ public class SudokuTextField extends TextField {
         }
     }
 
+    @Override
     public void replaceSelection(String s){
         if (!s.matches("[0-9]")){
             super.replaceSelection(s);
